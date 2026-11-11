@@ -14,7 +14,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PROMPTS_DIR = path.join(__dirname, "..", "..", "prompts");
 
-const BASE_URL = process.env.SIBERI_BASE_URL?.trim() || "https://siberi.online/api/v1/ai";
+const BASE_URL = process.env.SIBERI_BASE_URL?.trim() || "http://127.0.0.1:5005/api/v1/ai";
 const API_KEY = process.env.SIBERI_API_KEY?.trim() || "";
 
 const START_RETRIES = 4;
