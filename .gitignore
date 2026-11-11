@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+*.key
+*.token
+.claude/settings.local.json
+.mistral-profile/
+
+# Media inputs & generated edits / digests
+media/
+output/
+out/
+uploads/
+*.mp4
+*.mkv
+*.webm
+*.mov
+*.m4a
+*.mp3
+*.wav
+plan*.json
+edl*.json
+
+# Logs / OS
+*.log
+.DS_Store
+Thumbs.db

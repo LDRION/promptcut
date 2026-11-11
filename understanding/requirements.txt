@@ -1,0 +1,20 @@
+# Ingest
+yt-dlp>=2024.1.0
+
+# Speech transcription fallback (GPU via CTranslate2, no torch needed)
+faster-whisper>=1.0.0
+
+# Music / sound analysis
+librosa>=0.10.2
+soundfile>=0.12.1
+numpy>=1.26
+
+# Contact-sheet montages
+Pillow>=10.2
+
+# ffmpeg / ffprobe are expected on PATH (system install)
+
+# Face-lock tracker (engine/python/face_track.py runs in this venv): YuNet needs
+# OpenCV >= 4.8; MediaPipe is the optional fallback detector.
+opencv-python-headless>=4.8
+# mediapipe>=0.10.30
